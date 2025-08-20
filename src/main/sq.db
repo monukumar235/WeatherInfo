@@ -1,0 +1,10 @@
+CREATE TABLE weather (
+    weather_id INT PRIMARY KEY AUTO_INCREMENT,
+    lat INT,
+    lon INT,
+    pin_code varchar(256),
+date varchar(256),
+weather_map json
+);
+
+
